@@ -1,0 +1,12 @@
+{
+	"name": "permaUItoken",
+	"ticker": "PUT",
+	"totalSupply": 1000,
+	"balances": {
+		"vZY2XY1RD9HIfWi8ift-1_DnHLDadZMWrufSh-_rKF0": 50
+	},
+	"proposal_counter": 1,
+	"proposals": []
+}
+
+

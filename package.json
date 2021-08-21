@@ -1,0 +1,27 @@
+{
+  "name": "permaui",
+  "version": "1.0.0",
+  "description": "a perma-elected \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001bn:\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D DeFi UIs living on the Permaweb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentland/permaui.git"
+  },
+  "keywords": [
+    "Arweave",
+    "DeFi",
+    "Ethereum",
+    "DAO",
+    "frontend",
+    "smart-contracts"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentland/permaui/issues"
+  },
+  "homepage": "https://github.com/decentland/permaui#readme"
+}
