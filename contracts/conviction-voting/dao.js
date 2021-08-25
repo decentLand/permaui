@@ -77,37 +77,37 @@ export async function handle (state, action) {
 		return { result: { balance } }
 	}
 
-	if (input.function === "transfer") {
-		const from = caller
-		const to = input.to
-		const qty = input.qty
+// 	if (input.function === "transfer") {
+// 		const from = caller
+// 		const to = input.to
+// 		const qty = input.qty
 
-		if ( ! balances[caller] ) {
-			throw new ContractError(ERROR_CALLER_NOT_FOUND)
-		}
+// 		if ( ! balances[caller] ) {
+// 			throw new ContractError(ERROR_CALLER_NOT_FOUND)
+// 		}
 
-		if ( ( balances[caller] <= 0 ) || ( ! Number.isInteger(qty) ) ) { 
-			throw new ContractError(ERROR_INVALID_TOKEN_QTY_TRANSFER)
-		}
+// 		if ( ( balances[caller] <= 0 ) || ( ! Number.isInteger(qty) ) ) { 
+// 			throw new ContractError(ERROR_INVALID_TOKEN_QTY_TRANSFER)
+// 		}
 
-		if ( balances[caller] < qty ) {
-			throw new ContractError(ERROR_UNSUFFICIENT_BALANCE)
-		}
+// 		if ( balances[caller] < qty ) {
+// 			throw new ContractError(ERROR_UNSUFFICIENT_BALANCE)
+// 		}
 
-		if (typeof to !== "string" || to.length !== 43) {
-			throw new ContractError(ERROR_INVALID_ARWEAVE_ADDRESS)
-		}
+// 		if (typeof to !== "string" || to.length !== 43) {
+// 			throw new ContractError(ERROR_INVALID_ARWEAVE_ADDRESS)
+// 		}
 
-		if ( ! balances[to] ) {
-			balances[to] = 0
-		}
+// 		if ( ! balances[to] ) {
+// 			balances[to] = 0
+// 		}
 
-		balances[to] += qty
-		balances[caller] -= qty
+// 		balances[to] += qty
+// 		balances[caller] -= qty
 
-		return { state }
+// 		return { state }
 
-	}
+// 	}
 
 	if (input.function === "addProposal") {
 		const name = input.name
